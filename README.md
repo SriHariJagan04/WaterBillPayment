@@ -41,11 +41,6 @@ This is a **ReactJS-based frontend** for a simple water bill payment portal. Bui
 
 ---
 
-## 📷 Screenshots
-(Add screenshots here using markdown if desired later)
-
----
-
 ## 🛠️ Technologies Used
 
 - ReactJS
