@@ -1,0 +1,53 @@
+/* General styles */
+.navbar {
+  background-color: #133b80;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 1rem;
+  position: relative;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.hamburger {
+  display: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .nav-links {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: #133b80;
+    flex-direction: column;
+    width: 100%;
+    display: none;
+  }
+
+  .nav-links.open {
+    display: flex;
+    padding: 1rem 0;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
